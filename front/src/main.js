@@ -5,6 +5,7 @@ import App from './App.vue'
 import HomeView from './views/HomeView.vue'
 import ArticleView from './views/ArticleView.vue'
 import ContactView from './views/ContactView.vue'
+import sanitizeHtml from 'sanitize-html';
 
 const router = createRouter({
   history: createWebHistory(),
@@ -17,5 +18,11 @@ const router = createRouter({
     return { top: 0 }
   }
 })
+const app = createApp(App)
 
-createApp(App).use(router).mount('#app')
+// Asignar sanitize como propiedad global
+app.config.globalProperties.$sanitize = sanitizeHtml
+
+// Registrar el router y montar la app
+app.use(router)
+app.mount('#app')

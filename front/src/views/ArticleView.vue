@@ -3,6 +3,8 @@ import { ref, onMounted, watch } from 'vue'
 import { useRoute } from 'vue-router'
 import LoadingGears from '../components/LoadingGears.vue'
 
+
+
 const route = useRoute()
 const loading = ref(true)
 const error = ref('')
@@ -33,7 +35,7 @@ watch(() => route.params.id, (id) => fetchArticle(id))
     <div v-else-if="error" class="error">{{ error }}</div>
     <div v-else>
       <h2 class="title">{{ article?.title }}</h2>
-      <div v-if="article?.text" class="prose" v-html="article.text" />
+      <div v-if="article?.text" class="prose" v-html="$sanitize(article.text)" />
       <pre v-else class="raw">{{ article }}</pre>
     </div>
   </article>
