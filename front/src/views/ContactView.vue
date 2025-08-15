@@ -12,5 +12,3 @@
 .title { font-size: 2rem; font-weight: 800; margin-bottom: 1rem; }
 .contact :deep(a) { color: var(--color-accent); }
 </style>
-
-

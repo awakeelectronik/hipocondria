@@ -1,0 +1,23 @@
+export const HIPOCONDRIA_LOGO_PATH =
+  // H - Letter at x=0
+  "M0 0h8v30h-8V0z M20 0h8v30h-8V0z M0 11h28v8H0v-8z" +
+  // I - Letter at x=45
+  " M45 0h8v30h-8V0z" +
+  // P - Letter at x=70
+  " M70 0h8v30h-8V0z M70 0h20c6 0 12 4 12 10s-6 10-12 10H70v10h-8V20z M78 6v8h12c2 0 4-2 4-4s-2-4-4-4H78z" +
+  // O - Letter at x=120 (moved slightly right)
+  " M120 0c11 0 20 7 20 15s-9 15-20 15s-20-7-20-15s9-15 20-15z M120 6c-7 0-12 4-12 9s5 9 12 9s12-4 12-9s-5-9-12-9z" +
+  // C - Letter at x=160 (repositioned for proper spacing)
+  " M160 6c0-3 2-6 6-6h12c4 0 6 3 6 6v2h-8v-2c0-1-1-2-2-2h-6c-1 0-2 1-2 2v16c0 1 1 2 2 2h6c1 0 2-1 2-2v-2h8v2c0 3-2 6-6 6h-12c-4 0-6-3-6-6V6z" +
+  // O - Letter at x=205 (repositioned for proper spacing)
+  " M205 0c11 0 20 7 20 15s-9 15-20 15s-20-7-20-15s9-15 20-15z M205 6c-7 0-12 4-12 9s5 9 12 9s12-4 12-9s-5-9-12-9z" +
+  // N - Letter at x=250 (repositioned and fixed)
+  " M250 0h8v30h-8V0z M290 0h8v30h-8V0z M250 30l40-30v8l-32 22v-8l32-22V0h-8l-40 30z" +
+  // D - Letter at x=335 (repositioned for proper spacing)
+  " M335 0h8v30h-8V0z M335 0h16c8 0 15 7 15 15s-7 15-15 15h-16V0z M343 6v18h8c4 0 7-4 7-9s-3-9-7-9h-8z" +
+  // R - Letter at x=380 (repositioned for proper spacing)
+  " M380 0h8v30h-8V0z M380 0h20c6 0 12 4 12 10s-6 10-12 10l12 10h-10l-10-8v8h-8V0z M388 6v8h12c2 0 4-2 4-4s-2-4-4-4h-12z" +
+  // I - Letter at x=425 (repositioned for proper spacing)
+  " M425 0h8v30h-8V0z" +
+  // A - Letter at x=470 (repositioned for proper spacing)
+  " M470 30V0l15 30h-8l-2-6h-10l-2 6h-8l15-30z M478 18h6l-3-9-3 9z"
