@@ -1,3 +1,41 @@
 hipocondria.sql
 hipocondria
 main.go
+
+# Binarios compilados
+poetry-admin
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Archivos de test
+*.test
+*.out
+*.coverage
+
+# Dependencias de Go
+vendor/
+
+# Variables de entorno
+.env
+
+# Logs
+*.log
+
+# Archivos temporales
+tmp/
+temp/
+
+# Archivos IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+*.toml
