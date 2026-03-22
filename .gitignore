@@ -1,6 +1,6 @@
 hipocondria.sql
 hipocondria
-main.go
+#main.go
 
 # Binarios compilados
 poetry-admin
